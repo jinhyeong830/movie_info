@@ -31,12 +31,11 @@
     background-repeat: no-repeat;
 }
 
-.horror_genre {
+.genre {
     display: inline-block;
     width: 70px;
     height: 27px;
     z-index: 2;
-    background-color: darkslategrey;
     position: absolute;
     top: 30px;
     left: 140px;
