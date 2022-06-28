@@ -12,8 +12,7 @@ body{
     height: 150px;
     box-sizing: border-box;
     /*header가 항상 맨 앞으로 오도록 z-index 주기*/
-    
-    background-color: red;/*나중에 변경*/
+    background-color: red;
     /*그림자 삽입*/
     box-shadow: 0 1px 5px rgb(175, 174, 174);
 
@@ -26,7 +25,7 @@ body{
     font-weight: 700;
     height: inherit;
     margin: auto;
-    background-color: aquamarine;
+    
     text-align: center;
     
 }
@@ -62,6 +61,8 @@ body{
     text-align: left;
     padding: 20px 30px;
 }
+
+
 
 .aside_div ul>li:nth-child(1){ /*home*/
     margin:20px 0;
