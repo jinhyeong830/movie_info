@@ -6,13 +6,14 @@ body{
 
 /*header*/
 .header_div>header{
+    z-index: 3;
     position: fixed;
     /*header size*/
     width: 100vw;
     height: 150px;
     box-sizing: border-box;
     /*header가 항상 맨 앞으로 오도록 z-index 주기*/
-    background-color: red;
+    background-color: rgb(155, 0, 0);
     /*그림자 삽입*/
     box-shadow: 0 1px 5px rgb(175, 174, 174);
 
@@ -37,23 +38,26 @@ body{
 /*aisde*/
 .aside_div{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     top: 150px;
-    
-    background-color: yellow;
 
     height: calc(100% - 150px);
     width: 200px;
     margin: 0;
+
+    box-shadow: 0.5px 1px 5px rgb(175, 174, 174);
 }
 .aside_div li{
     /* list 점 없애기*/
     list-style: none;
+    
 }
 
 .aside_div a{
     /*링크에 밑줄 없애기*/
     text-decoration: none;
+    color:black;
+    display:block;
 }
 
 /*스타일 추가하기*/
@@ -61,8 +65,6 @@ body{
     text-align: left;
     padding: 20px 30px;
 }
-
-
 
 .aside_div ul>li:nth-child(1){ /*home*/
     margin:20px 0;
@@ -85,23 +87,32 @@ body{
 }
 
 /*hover 시 스타일 적용하기*/
-.aside_div ul>li:nth-child(1):hover{
-   
 
-}
 .aside_div ul>li:nth-child(2):hover{
-    background-color: aqua;
-    
+    background-color: blue;
 }
 .aside_div ul>li:nth-child(3):hover{
-    background-color: aqua;
+    background-color: rgb(62, 255, 136);
     
 }
 .aside_div ul>li:nth-child(4):hover{
-    background-color: aqua;
+    background-color: black;
+    color: red;
     
 }
 .aside_div ul>li:nth-child(5):hover{
-    background-color: aqua;
+    background-color: hotpink;
+    
+}
+/**/
+.aside_div ul>li:nth-child(2)>a:hover{
+   
+    color:white;
+    
+}
+
+.aside_div ul>li:nth-child(4)>a:hover{
+   
+    color: red;
     
 }
