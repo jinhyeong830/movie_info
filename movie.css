@@ -36,12 +36,12 @@ section .movie_poster_img {
 
 section .genre {
     display: inline-block;
-    width: 70px;
+    width: 100px;
     height: 27px;
     z-index: 2;
     position: absolute;
-    top: 30px;
-    left: 140px;
+    top: 45px;
+    left: 130px;
     text-align: center;
     line-height: 27px;
     font-size: 18px;

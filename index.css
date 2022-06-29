@@ -42,6 +42,7 @@ body{
     position: fixed;
     top: 150px;
 
+    background-color: white;
     height: calc(100% - 150px);
     width: 200px;
     margin: 0;
@@ -62,7 +63,7 @@ body{
 }
 
 /*스타일 추가하기*/
-.aside_div ul>li{
+.aside_div ul>li>a{
     text-align: left;
     padding: 20px 30px;
 }
@@ -72,48 +73,26 @@ body{
     text-align: center;
     font-weight: 600;
 }
-.aside_div ul>li:nth-child(2){ /*action*/
+
+
+/*hover 시 스타일 적용하기*/
+.aside_div ul>li:nth-child(2)>a:hover{
+    background-color:blue;
+    color: white;
     
 }
 
-.aside_div ul>li:nth-child(3){ /*fantasy*/
- }
-
-.aside_div ul>li:nth-child(4){ /*horror*/
-   
-}
-
-.aside_div ul>li:nth-child(5){ /*romance*/
-   
-}
-
-/*hover 시 스타일 적용하기*/
-
-.aside_div ul>li:nth-child(2):hover{
-    background-color: blue;
-}
-.aside_div ul>li:nth-child(3):hover{
+.aside_div ul>li:nth-child(3)>a:hover{
     background-color: rgb(62, 255, 136);
     
 }
-.aside_div ul>li:nth-child(4):hover{
+.aside_div ul>li:nth-child(4)>a:hover{
     background-color: black;
     color: red;
     
 }
-.aside_div ul>li:nth-child(5):hover{
+.aside_div ul>li:nth-child(5)>a:hover{
     background-color: hotpink;
-    
 }
 /**/
-.aside_div ul>li:nth-child(2)>a:hover{
-   
-    color:white;
-    
-}
 
-.aside_div ul>li:nth-child(4)>a:hover{
-   
-    color: red;
-    
-}
