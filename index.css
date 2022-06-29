@@ -16,10 +16,26 @@ body{
     /*header가 항상 맨 앞으로 오도록 z-index 주기*/
     background-color: rgb(155, 0, 0);
     /*그림자 삽입*/
-    box-shadow: 0 1px 5px rgb(175, 174, 174);
+    box-shadow: 0 1px 5px rgb(155, 155, 155);
 
 }
 
+.header_div header>span{
+    font-size: 13px;
+    float: right;
+    position: relative;
+    top:5px;
+    color: rgb(201, 201, 201);
+    margin-right: 5px;
+    margin-top: 8px;
+    font-weight: 600;
+    
+
+
+}
+.header_div header>span:hover{
+    cursor: pointer;
+}
 
 
 .header_div div{
@@ -43,11 +59,12 @@ body{
     top: 150px;
 
     background-color: white;
-    height: calc(100% - 150px);
+    height: 100%;
     width: 200px;
     margin: 0;
 
     box-shadow: 0.5px 1px 5px rgb(175, 174, 174);
+    z-index: 2;
 }
 .aside_div li{
     /* list 점 없애기*/
@@ -94,5 +111,12 @@ body{
 .aside_div ul>li:nth-child(5)>a:hover{
     background-color: hotpink;
 }
-/**/
 
+section>.home_cinema img{
+    float: right;
+    width:calc(100% - 150px);
+    position: relative;
+    top: 200px;
+    
+
+}

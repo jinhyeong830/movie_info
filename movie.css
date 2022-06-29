@@ -25,6 +25,13 @@ section .movie_poster_img_container {
     margin: 10px;
     position: relative;
     bottom: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+section .movie_poster_img_container>img:hover{
+    transition: 2s;
+    transform: scale(1.1);
 }
 
 section .movie_poster_img {
@@ -38,7 +45,7 @@ section .genre {
     display: inline-block;
     width: 100px;
     height: 27px;
-    z-index: 2;
+    z-index: 1;
     position: absolute;
     top: 45px;
     left: 130px;

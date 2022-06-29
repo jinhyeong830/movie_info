@@ -1,25 +1,11 @@
 .home_cinema{
-    background-color: gray;
-    position: relative;
-    max-width: calc(100% - 200px);
-    max-height: calc(100% - 150px);
-    margin: 0 auto;
-    padding: 0 20px;
+    padding-top: 150px;
+    padding-left: 200px;
+    overflow: hidden;
 }
-.home_screen{
-    position:relative;
-    text-align: center;
-}
-div>div>.img{
+.home_cinema img{
+    max-width: 100%;
+    height: auto;
     display: block;
-    position: absolute;
-    width: 100%;
-}
-.team_name{
-    color: white;
-}
-.seats{
-    position: absolute;
-    width: 100%;
-    top:auto;
+    margin: auto;
 }
