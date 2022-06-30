@@ -1,5 +1,4 @@
 section .content_container {
-    height: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -35,7 +34,6 @@ section .movie_poster_img_container>img:hover{
 }
 
 section .movie_poster_img {
-    display: inline;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +43,6 @@ section .genre {
     display: inline-block;
     width: 100px;
     height: 27px;
-    z-index: 1;
     position: absolute;
     top: 45px;
     left: 130px;
@@ -56,28 +53,24 @@ section .genre {
     font-weight: 700;
 }
 
-section .movie_title {
+section .movie_content_container>*:not(.movie_poster_img_container){
     position: absolute;
+    margin: 20px;
+}
+
+section .movie_title {
     top: 10px;
     font-size: 24px;
-    margin: 20px;
 }
 
 section .movie_score {
-    position: absolute;
     top: 50px;
-    margin: 20px;
 }
 
 section .movie_description {
-    position: absolute;
     top: 90px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: wrap;
     width: 420px;
     height: 210px;
-    margin: 20px;
     line-height: 25px;
 }
 

@@ -87,7 +87,6 @@ body{
 
 .aside_div ul>li:nth-child(1){ /*home*/
     margin:20px 0;
-    text-align: center;
     font-weight: 600;
 }
 
@@ -110,13 +109,4 @@ body{
 }
 .aside_div ul>li:nth-child(5)>a:hover{
     background-color: hotpink;
-}
-
-section>.home_cinema img{
-    float: right;
-    width:calc(100% - 150px);
-    position: relative;
-    top: 200px;
-    
-
 }
