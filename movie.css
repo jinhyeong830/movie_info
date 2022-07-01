@@ -74,8 +74,8 @@ section .movie_description {
     line-height: 25px;
 }
 
-section{
+ section{
     position:absolute;
     left:200px;
     top:150px;
-}
+} 

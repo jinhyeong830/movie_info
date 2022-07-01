@@ -18,7 +18,7 @@ body{
 
 }
 
-.header_div header>span{
+span.login{
     font-size: 13px;
     float: right;
     position: relative;
@@ -52,6 +52,9 @@ body{
     width: 90px;
     padding:15px 0;
 }
+.header_div img{
+    cursor: pointer;
+}
 
 /*aisde*/
 .aside_div{
@@ -80,6 +83,11 @@ body{
 }
 
 /*스타일 추가하기*/
+.aside_div ul{
+    margin: 0;
+    padding: 0;
+}
+
 .aside_div ul>li>a{
     text-align: left;
     padding: 20px 30px;
@@ -109,4 +117,45 @@ body{
 }
 .aside_div ul>li:nth-child(5)>a:hover{
     background-color: hotpink;
+}
+/*추가*/
+section span.login{
+
+    display: block;
+    height: 20px;
+    margin: auto 0;
+}
+
+@media screen and (min-width:992px){
+    nav{
+        display: none;
+    }
+    
+    section span.login{
+
+        display: none;
+    }
+
+}
+@media screen and (max-width:991px){
+    section.home_cinema{
+        padding-left:0;
+    }
+
+    header span.login{
+        display: none;
+    }
+
+    .aside_div{
+        display: none;
+    }
+
+    section{
+        position: absolute;
+        
+    }
+
+  
+    
+
 }
