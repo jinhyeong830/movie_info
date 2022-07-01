@@ -127,10 +127,11 @@ section span.login{
 }
 
 @media screen and (min-width:992px){
-    nav{
+
+    #nav_none{
         display: none;
-    }/*화면 커졌을 때 nav(드롭다운) 없어지도록*/
-    
+    }
+
     section span.login{
 
         display: none;
