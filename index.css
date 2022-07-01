@@ -9,13 +9,11 @@ body{
 .header_div>header{
     z-index: 3;
     position: fixed;
-    /*header size*/
     width: 100%;
     height: 150px;
     box-sizing: border-box;
     /*header가 항상 맨 앞으로 오도록 z-index 주기*/
     background-color: rgb(155, 0, 0);
-    /*그림자 삽입*/
     box-shadow: 0 1px 5px rgb(155, 155, 155);
 
 }
@@ -48,16 +46,18 @@ body{
     
 }
 .header_div img{
+    position:absolute;
+    left:calc(50% - 45px);/*추가*/
     height: 120px;
+    width: 90px;
     padding:15px 0;
 }
 
 /*aisde*/
 .aside_div{
-    display: inline-block;
+   
     position: fixed;
     top: 150px;
-
     background-color: white;
     height: 100%;
     width: 200px;
