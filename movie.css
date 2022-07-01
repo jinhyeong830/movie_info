@@ -1,3 +1,5 @@
+/*텍스트 길어졌을 때 자동으로 잘리고 ... 처리 되게 하기*/
+
 section .content_container {
     height: 100vh;
     display: flex;

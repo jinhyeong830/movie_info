@@ -129,7 +129,7 @@ section span.login{
 @media screen and (min-width:992px){
     nav{
         display: none;
-    }
+    }/*화면 커졌을 때 nav(드롭다운) 없어지도록*/
     
     section span.login{
 
@@ -150,10 +150,8 @@ section span.login{
         display: none;
     }
 
-    section{
-        position: absolute;
-        
-    }
+    /*왼쪽 메뉴 없어져도 컨텐츠 중앙정렬 되도록*/
+
 
   
     
